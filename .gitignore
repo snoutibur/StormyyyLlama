@@ -50,3 +50,4 @@ __pycache__/
 build/
 dist/
 *.egg-info/
+/cmake-build-debug
