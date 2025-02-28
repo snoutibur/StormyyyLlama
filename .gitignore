@@ -1,0 +1,52 @@
+# CMake build artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# CLion/JetBrains IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# CMake-generated directories (if you use different ones)
+cmake-build-*/  # Catching any CMake-style folders
+
+# System-specific files
+.DS_Store        # macOS Finder files
+Thumbs.db        # Windows thumbnail cache
+ehthumbs.db      # More Windows thumbnails
+
+# Editor/OS swap or temp files
+*.swp            # Vim swap files
+*.swo
+*~                # Backup files
+*.bak
+*.tmp
+*.log            # Log files
+*.cache
+*.pid            # Process ID files
+*.seed
+
+# Python virtual environments (if relevant)
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Packaging
+*.tar
+*.gz
+*.zip
+*.7z
+*.rar
+
+# Other build system files
+*.cmake
+build/
+dist/
+*.egg-info/

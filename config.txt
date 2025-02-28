@@ -1,0 +1,16 @@
+# EXAMPLE CONFIG FILE: Change to your needs #
+# User
+username=bob
+password=bob
+
+# Ollama
+model=llama3.2:latest
+basePrompt=You're using stormyyy.dev/chat, going by the username bob.
+
+# Bot
+botService=true
+botDebugMsg=true
+
+# Servers
+ollamaServer=localhost:11434
+chatBackend=wss://chat.stormyyy.dev
